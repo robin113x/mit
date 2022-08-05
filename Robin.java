@@ -1,1 +1,4 @@
-class Robin{}
+class Robin{
+	public static void main(String[]args){
+	}
+}
