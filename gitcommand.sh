@@ -59,6 +59,8 @@ git merge BNAME
 git merge <src BRANCHName> <dist BNAME>
 git cherry-pick <commit ID> --> merge specific commit  from other branch to master branch
 
+#git stash
+git stash --> save unfinsh code in stash then undo eveything 
 
 
 
