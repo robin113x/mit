@@ -51,6 +51,9 @@ git checkout -b <branchNAme> --> branch is created & switch to that
 git push -u origin <branchNAme> --> push branch on central repo
 
 
+#Merge branch
+git merge BNAME
+git merge <src BRANCHName> <dist BNAME>
 
 
 
