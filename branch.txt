@@ -3,3 +3,5 @@ git branch BNAME
 git checkout BNAME
 
 git push -u origin BNAME 
+
+git stash apply stash@{1}
