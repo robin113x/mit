@@ -8,6 +8,10 @@ git status
 git add .
 git commit -m "Proper message"
 
+
+#Add file  + Message
+git commit -a -m "Message"
+
 git log --> show log/commit id (40 char SHA-1 Hash)/message
 git log -1  --> show lastet 1st log only
 git log -3  --> show lastet 3 log only
@@ -30,8 +34,21 @@ cat .git/config
 git pull --> update local repo from central repo
 
 
+#GIT BRANCH --> main/master (default branch )  
+git branch <branchName> --> creation of new branch
+git branch  DEMOBranch
+
+#Switch from one branch to another
+git checkout <BRANCHName>
+
+#show all branch
+git branch
 
 
+
+#create branch & push it to central repo
+git checkout -b <branchNAme> --> branch is created & switch to that
+git push -u origin <branchNAme> --> push branch on central repo
 
 
 
