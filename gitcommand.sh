@@ -21,4 +21,7 @@ git show <commit id>
 
 
 
+git push --> update central repo with local repo (take all the commit id from local repo & push it to the central repo)
 
+
+ 
