@@ -57,6 +57,7 @@ git push -u origin <branchNAme> --> push branch on central repo
 #Merge branch
 git merge BNAME
 git merge <src BRANCHName> <dist BNAME>
+git cherry-pick <commit ID> --> merge specific commit  from other branch to master branch
 
 
 
