@@ -29,6 +29,9 @@ cat .git/config
 
 git pull --> update local repo from central repo
 
+#merge branch
+git merge branchname
+git merge <src Bname> <dist BNAME>
 
 
 
