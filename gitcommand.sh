@@ -67,6 +67,15 @@ git stash drop <stash id>
 git stash clear
 git stash apply <stash id> --> reapply specific stash
 
+<<<<<<< HEAD
+=======
+
+#git reset  --> we want to move repo in previous commit, discard any change
+git reset
+git reset --soft HEAD~2 --> undo from repo refrence and move in staging area
+git reset --mixed HEAD~2 (default mode) --> undo from repo refrence + staging area
+git reset --hard HEAD~2 -->  undo from repo + staging area + working dir > delete 
+>>>>>>> 3e871b00789e3b23841054ca2d76c837c78b2873
 
 #git reset  --> we want to move repo in previous commit, discard any change
 git reset  (reset mixed >> is default mode)
