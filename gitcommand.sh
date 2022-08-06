@@ -61,8 +61,35 @@ git cherry-pick <commit ID> --> merge specific commit  from other branch to mast
 
 #git stash
 git stash --> save unfinsh code in stash then undo eveything 
+git stash list --> show all stored stash
+git stash pop --> unstash the change/reapply the change
+git stash drop <stash id>
+git stash clear
+git stash apply <stash id> --> reapply specific stash
 
 
+#git reset  --> we want to move repo in previous commit, discard any change
+git reset  (reset mixed >> is default mode)
+git reset --soft HEAD~2 --> undo from repo refrence and move in staging area
+git reset --mixed HEAD~2 (default mode) --> undo from repo refrence + staging area
+git reset --hard HEAD~2 -->  undo from repo + staging area + working dir > delete 
+
+
+#git revert --> we want to undo commit but dont want to delete any commit
+git revert <commit id> --> undo/redo
+git checkout <commit id>
+
+
+#git tag
+git tag -a "tag patter" -m "comment" <commiit id>  --> add to the specific commit is
+git show "tag patter"  --> show specific tag
+git tag --> display tag
+git push --tag  --> push to remote 
+git tag -d "tag pattern" --> delete
+
+
+#git rebase --> use to maintain the linear project
+git rebase <branch name>
 
 
 
